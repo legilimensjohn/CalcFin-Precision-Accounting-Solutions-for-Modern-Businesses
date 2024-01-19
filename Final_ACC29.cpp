@@ -1,3 +1,6 @@
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
 #include <cstdlib>
 #include <iostream>
 #include <limits>
@@ -13,7 +16,9 @@ void debtToEquityRatio();
 void costOfSoldGoods();
 void grossProfitMargin();
 void netProfitMargin();
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
 int main() {
     int choice;
     char tryAgain;
@@ -48,7 +53,9 @@ int main() {
         }
 
         cout << endl;
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
         // Execute the selected option
         switch (choice) {
             case 1:
@@ -106,7 +113,9 @@ int main() {
             default:      
                 cout << "Invalid choice." << endl;
         }
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
         // Ask the user if they want to try again
         if (choice != 9) {
             cout << endl << endl;
@@ -127,7 +136,9 @@ int main() {
 
     return 0;
 }
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
 void accountingExpandedEquation() {
     while (true) {
         int choice;
@@ -230,7 +241,9 @@ void accountingExpandedEquation() {
                 cout << "--------------------------" << endl;
                 break;
         }
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
         char tryAgain;
         cout << "Do you want to try again with the expanded accounting equation? (y/n): ";
         cin >> tryAgain;
@@ -268,7 +281,9 @@ int netIncome() {
 
     return netIncome;
 }
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
 void breakEvenPoint() {
     int fixedCosts, salesPrice, variableCosts;
     float breakEvenPoint;
@@ -316,7 +331,9 @@ void cashRatio() {
         cout << "Error: Current liabilities are zero. Unable to calculate cash ratio." << endl;
     }
 }
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
 void debtToEquityRatio() {
     int numLiabilities;
     float debt_to_equity_ratio;
@@ -365,7 +382,9 @@ void debtToEquityRatio() {
         cout << "Error: Shareholders' equity is zero. Unable to calculate Debt to Equity Ratio." << endl;
     }
 }
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
 void costOfSoldGoods() {
     int beginningInventory, purchases, endingInventory;
     float cogs;
@@ -385,7 +404,9 @@ void costOfSoldGoods() {
     cout << " Cost of Goods Sold (COGS): " << cogs << endl;
     cout << "---------------------------------" << endl;
 }
-
+## Author
+- [John Christian Ventura](https://github.com/legilimensjohn)
+	
 // New function definitions
 void grossProfitMargin() {
     double cost_of_goods, revenue;
